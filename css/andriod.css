@@ -1,0 +1,130 @@
+<style>
+body{background: white;}
+
+.header-table{bbackground:white;margin:0%;padding: 0%;padding-top: 1%;padding-bottom:0.2%;z-index: 1;}
+.header-table-row1{}
+.header-table-row1 td{}
+.landing-page-logo{position:relative;float:left;width:30%;left:20%;}
+.desktop-nav-div{display:none;}
+.navigation-button{background: rgb(78.5.90);}
+.tr-tagline{background: rgb(78,5,92);}
+.tr-tagline>td{padding-bottom: 0.5%;}
+.tagline{color:white;text-transform: capitalize;font-family: cursive;font-size:100%;text-align: center;word-spacing: 1px;background:rgb(78,5,92);
+	 }
+
+/*style for header ending------------------------------------------
+------------------------------------------------------------
+-------------------------------------------*/
+.hidden-navigation-table{background: white;position: absolute;display: none;margin: 0%;float:none;top:0%;z-index: 1;}
+.hidden-navigation-table:hover{}
+.hidden-navigation-close{background: rgb(78,5,92);color: white;text-align: left;text-transform: capitalize;font-style: italic;font-weight: 500;}
+.hidden-landing-page-logo{width:60%;margin-left: 15%;}
+.hidden-landing-page-logo:hover{width:65%;}
+.hidden-nav-div{display:block;background: white;width: 100%;margin-right: 100px;padding-bottom: 0.5%;}
+.hidden-nav-div:hover{background:rgb(255,255,200);}
+.hidden-nav-div a{text-transform: capitalize;text-decoration: none;font-style: normal;font-family: serif;font-weight: 1000;color: rgb(78,5,92);
+	text-align:left; font-size: 100%;padding:3%;display: block;background:white;}
+.hidden-nav-div  a:hover{background-color:rgb(78,5,92);color: white;}
+.hidden-nav-div a:visited{background: black;color:white;}
+.hidden-nav-div a.active{background: green;color: white;}
+
+/*style for hidden navigation ending------------------------------------------
+------------------------------------------------------------
+-------------------------------------------*/
+.mobile-welcome-container{background: rgb(255,255,150);margin-bottom: 2%;height:200px;padding: 0.2%; }
+.mobile-welcome-message-header{text-transform:uppercase;font-size:100%;text-align:center;color:white;font-weight: 1000;font-family: sans-serif;
+						background: black;border-radius: 10px 0px 0px 10px;}
+.mobile-welcome-message{color:black;font-family:cursive;font-size:100%;text-align:center;}
+
+.mobile-servicelist-container{background: black;height: 100px;width: 95%;text-align: center;margin-top: 1%;}
+.mobile-servicelist-header{text-transform: uppercase;font-size:100%;text-align:center;color:black;font-weight: 1000;font-family: sans-serif;
+						background:white;padding-top:1%;border-radius: 5px 5px 0px 0px;}
+.mobile-servicelist-header-list{display: none;}
+.mobile-servicelist{color:white;font-family: sans-serif;font-weight: 600;text-decoration: overline;text-transform: capitalize;padding-top:2%; }
+.mobile-service-list{display: none;}
+/*************middle content*******************/
+.desktop-mission-welcome,.desktop-vision-servicelist{display:none;}
+.mobile-mission-container{background:rgb(78,5,90);margin-top:5%;height:150px;padding: 0.5%;margin-bottom: 0.5%;border-radius: 10px 0px 0px 10px;}
+.mobile-vision-container{background:green;margin-top:5%;height: 150px;padding: 0.5%;margin-bottom: 1%;border-radius: 10px 0px 0px 10px;}
+.mission-statement-header{background:white;color:rgb(78,5,92);text-transform:uppercase;font-weight: 1000;border-radius: 10px 0px 0px 10px;font-style:italic;
+				font-family: sans-serif;}
+.vision-statement-header{background:white;color:green;text-transform:uppercase;font-weight:1000;border-radius: 10px 0px 0px 10px;font-style: italic;
+			font-family: sans-serif;}
+.vision-statement,.mission-statement{color:white;text-transform: capitalize;text-align:left;font-family: sans-serif;}
+/********************middle content*****************/
+.footer-social-media{background: rgb(255,255,250);text-align: center;}
+.footer{background: rgb(78,5,92);}
+.footer-copyright{color:white;text-align: left;font-family: sans-serif;font-weight: 300;padding-top: 2%;padding-bottom: 1%;
+					font-size: 100%;}
+.footer-feedback a{background: white;color:green;margin-left: 5%;}
+.facebook,.instagram,.linkedin,.whatsapp{margin-left: 10%;}
+/**************footeer*****************/
+
+/**************about stylessssssssss*******************/
+
+@media screen and (max-width: 601px){
+	.about-heading{display:none;}
+}
+.about-table{background: url("../images/aboutbg.png");background-position: right;background-repeat:no-repeat;background-size:100% 100%;
+		background-color: transparent;}
+.about-heading{color:white;background:rgb(78,5,92);text-transform: uppercase;text-align:left;padding: 1%;font-weight: 1000;font-style: italic;
+	font-family:sans-serif;text-align:center; }
+.about1{color:rgb(78,5,92);text-transform: capitalize;text-align:left;font-weight: 1000;font-family: sans-serif;
+	text-align:center;padding-bottom: 4%;padding-top: 1%;}
+.about3{color:green;text-transform:capitalize;text-align:left;font-weight: 1000;font-style: italic;font-family: cursive;
+	text-align:center;}
+
+.about-service-list{padding-left:1%;padding-bottom: 1.2%;list-style-type:square;}						  
+.about4{color:rgb(78,5,91);text-transform: capitalize;text-align:left;font-weight: 700;font-style: initial;font-family:sans-serif;
+	text-align:center;padding-bottom: 3%;padding-top: 3%;}
+	.about5{color:white;background:green; text-transform: capitalize;text-align:left;font-weight: 700;font-style: initial;font-family:sans-serif;
+	text-align:center;}
+
+/**************samples stylessssssssss*******************/
+.sample-table{background: url("../images/samplebg2.png");background-position: right;background-repeat:no-repeat;background-size:50% 80%;
+		background-color: white;}
+.sample-heading{color:white;background:rgb(78,5,92);text-transform: uppercase;text-align:left;padding: 1%;font-weight: 1000;font-style: italic;
+	font-family:sans-serif;text-align:center; }
+.sample3{color:green;text-transform:capitalize;text-align:left;font-weight: 1000;font-style: italic;font-family: cursive;
+	text-align:left;padding-bottom: 20%;padding-top: 3%;}
+.sample-service-list{margin-left:5%;padding-left:1%;padding-bottom: 1.2%;list-style-type:square;}						  
+.sample-service-list a{font-weight: bold;text-decoration: none;font-family: sans-serif;text-transform: capitalize;color: rgb(78,5,92);}
+.sample-service-list a:hover{color:white;background: rgb(78,5,92);}
+
+
+
+/*************project styling****************************/
+.project-container{width:100%;background:url("../images/aboutbg.png");background-repeat:no-repeat;background-size:100% 100%;
+				padding-top: 2%;padding-bottom: 4%;}
+.project-header{font-family: sans-serif;font-stretch:30px;color:rgb(78,5,92);text-decoration: overline;text-transform: uppercase;text-align: center;
+	font-weight: 1000;font-size: 120%;padding-bottom: 3%;}
+.website-container{width:50%;height:auto;margin-left: 25%;border: 2px solid rgb(78,5,92);border-radius: 5px;
+				margin-bottom: 3%;margin-top: 5%;background: white;}
+.website-caption,.graphics-caption{text-decoration:none;color:rgb(78,5,92);text-transform: capitalize;font-weight: 800;font-family: cursive;
+	text-align: center;font-size: 100%;}
+.website-container a{text-decoration: none;}
+.website-project{height:auto;}
+.graphics-container{width:50%;height: auto;margin-left: 25%;border: 2px solid rgb(78,5,92);border-radius: 5px;
+				margin-top: 5%;background: white;}
+.graphics-container a{text-decoration: none;}
+
+.graphics-project{height:auto;}
+
+/************************cpntact******************/
+.contacts{color:rgb(78,5,92);text-transform:capitalize;font-weight: 1000;font-style: initial;font-family: cursive;
+	text-align:center;}
+/************************cpntact******************/
+.mailto{background: rgb(78,5,92);color: white;text-align: center;border-radius: 20px;font-weight: 800;}
+
+
+/*************************slide images************************************/
+.slide-images{width:100%;overflow-x:none;overflow-y: hidden;max-height: 500px;}
+.slide-container{width:100%;height:500px;}
+.slides{width:100%;box-sizing: border-box;height:500px;animation :slides 2.5s infinite;animation-iteration-count: 1;animation-direction:alternate;}
+.slides:hover{animation-play-state: paused;cursor:wait;}
+@keyframes slides{
+	0%{opacity:0;}10%{opacity:0.1;}20%{opacity:0.2;}30%{opacity:0.3;}40%{opacity:0.4;}50%{opacity:0.5;}
+	60%{opacity: 0.6;}70%{opacity:0.7;}80%{opacity:0.8;}90%{opacity: 0.9;}100%{opacity: 1.0;}
+
+
+</style>

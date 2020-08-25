@@ -1,0 +1,129 @@
+<style>
+body{background: white;}
+
+.header-table{background:white;margin:0%;padding: 0%;padding-top: 1%;padding-bottom:0.1%;border-bottom: 2px solid rgb(78,5,90);z-index: 1;}
+.header-table-row1{}
+.header-table-row1 td{}
+.landing-page-logo{position:relative;float:left;width:25%;height:auto;left:30%;}
+.desktop-nav-div{background: rgb(78,5,92);position:relative;float:none;right:10%;padding:0%;text-align: center;padding-top: 1.45%;padding-bottom: 1.45%;
+				font-weight: 1000;}
+.desktop-nav-div:hover{background: rgb(70,10,80);}
+.desktop-nav-div a{text-transform: capitalize;text-decoration: none;color:white;background: rgb(78,5,92);padding:1.5%;font-weight:1000;font-style: italic;
+					font-size: 100%;margin:0%;}
+.desktop-nav-div a:hover{background:white;color:rgb(78,5,92);}
+.desktop-nav-div a:visited{background: black;color:white;}
+.desktop-nav-div a.active{background: green;color: white;}
+.navigation-button{display: none;}
+.tagline{color:rgb(78,5,92);text-transform: capitalize;font-family: cursive;font-size:100%;text-align: center;word-spacing: 10px;background:white;}
+
+/*style for header ending------------------------------------------
+------------------------------------------------------------
+-------------------------------------------*/
+.hidden-navigation-table{display: none;}
+@media screen and (min-width:601px){
+.hidden-navigation-table{display: none !important;}
+}
+/*hidden navigation--------------*/
+
+/**************mddle content*****************/
+.middle-content-footer{background: white;margin: 0%;width:100%;}
+.desktop-mission-welcome,.desktop-vision-servicelist{background: white;width: 100%;}
+.mission-container{background:rgb(78,5,90);margin-left:10%;width:70%;height:300px;margin-bottom: 1%;margin-top:3%;
+		border-radius: 10px 0px 0px 10px;}
+.vision-container{background:green;margin-left:10%;width:70%;height: 300px;margin-top: 3%;margin-bottom: 1%;
+	border-radius: 10px 0px 0px 10px;}
+.mission-statement-header{background:white;color:rgb(78,5,92);text-transform:uppercase;font-weight: 1000;border-radius: 10px 0px 0px 10px;font-style:italic;
+				font-family: sans-serif;}
+.vision-statement-header{background:white;color:green;text-transform:uppercase;font-weight:1000;border-radius: 10px 0px 0px 10px;font-style: italic;
+			font-family: sans-serif;}
+.vision-statement,.mission-statement{color:white;text-transform: capitalize;text-align:left;font-family: sans-serif;}
+
+/**************mddle content*****************/
+.welcome-message-container{background: rgb(255,255,150);margin-right: 20%;height: 300px;width: 70%;margin-bottom: 1%;margin-top:3%;}
+.welcome-message-header{text-transform: uppercase;font-size:100%;text-align:center;width:100%;color:white;font-weight: 1000;font-family: sans-serif;
+						background: black;padding: 0%;}
+.welcome-message{color:black;font-family:cursive;font-size:100%;text-align:left;}
+
+.servicelist-container{background:black;margin-right: 20%;height: 300px;width: 90%;margin-top: 3%;margin-bottom: 1%;}
+.servicelist-header{text-transform: uppercase;font-size:100%;text-align:center;color:black;font-weight: 1000;font-family: sans-serif;
+						background:white;height:100px;}
+.servicelist-header-list{display: none;padding: 0.2%;}
+
+.servicelist{color:white;font-family: sans-serif;font-weight: 600;text-decoration: overline;text-transform: capitalize;}
+.service-list{display:none;}
+/**************mddle content*****************/
+/************************mobile style************************/
+.mobile-welcome-container,.mobile-servicelist-container,.mobile-mission-container,.mobile-vision-container{display:none;}
+/******************footer**********************/
+.footer-social-media{background: rgb(255,255,250);}
+.footer{background: rgb(78,5,92);}
+.footer-copyright{color:white;text-align:center;font-family: sans-serif;font-weight: 300;padding: 1%;}
+.footer-feedback a{background: white;color:green;margin-left: 15%;}
+.facebook,.instagram,.linkedin,.whatsapp{margin-left: 10%;}
+/**************about stylessssssssss*******************/
+.about-table{background: url("../images/aboutbg.png");background-position: right;background-repeat:no-repeat;background-size:100% 100%;
+		background-color: transparent;}
+.about-heading{color:white;background:rgb(78,5,92);text-transform: uppercase;text-align:left;padding: 1%;font-weight: 1000;font-style: italic;
+	font-family:sans-serif;text-align:center; }
+.about1{color:rgb(78,5,92);text-transform: capitalize;text-align:left;font-weight: 1000;font-family: sans-serif;
+	text-align:center;padding-bottom: 2%;padding-top: 2%;}
+.about3{color:green;text-transform:capitalize;text-align:left;font-weight: 1000;font-style: italic;font-family: cursive;
+	text-align:center;}
+
+.about-service-list{padding-left:1%;padding-bottom: 1.2%;list-style-type:square;}						  
+.about4{color:orange;text-transform: capitalize;text-align:left;font-weight: 700;font-style: initial;font-family:sans-serif;
+	text-align:center;padding-bottom: 2%;padding-top: 2%;}
+	.about5{color:white;background:green; text-transform: capitalize;text-align:left;font-weight: 700;font-style: initial;font-family:sans-serif;
+	text-align:center;}
+
+
+	/**************samples stylessssssssss*******************/
+.sample-table{background: url("../images/samplebg2.png");background-position: right;background-repeat:repeat-y;background-size:30% 40%;
+		background-color: white;}
+.sample-heading{color:white;background:rgb(78,5,92);text-transform: uppercase;text-align:left;padding: 1%;font-weight: 1000;font-style: italic;
+	font-family:sans-serif;text-align:center; }
+
+.sample3{color:green;text-transform:capitalize;text-align:left;font-weight: 1000;font-style: italic;font-family: cursive;
+	text-align:left;padding-bottom: 20%;padding-top: 4%;}
+
+.sample-service-list{margin-left:5%;padding-left:1%;padding-bottom: 1.2%;list-style-type:square;}						  
+.sample-service-list a{font-weight: bold;text-decoration: none;font-family: sans-serif;text-transform: capitalize;color: rgb(78,5,92);}
+.sample-service-list a:hover{color:white;background: rgb(78,5,92);}
+
+/*************project styling****************************/
+.project-container{width:100%;background:url("../images/aboutbg.png");background-repeat:no-repeat;background-size:100% 100%;padding-top: 2%;height:500px;}
+.project-header{font-family: sans-serif;font-stretch:30px;color:rgb(78,5,92);text-decoration: overline;text-transform: uppercase;text-align: center;
+	font-weight: 1000;font-size: 120%;padding-bottom: 5%;}
+.website-container{width:30%;height:150px;position:relative;float:left;margin-left: 10%;border: 2px solid rgb(78,5,92);border-radius: 5px;
+				margin-bottom: 3%;margin-top: 5%;background: white;}
+.website-caption,.graphics-caption{text-decoration:none;color:rgb(78,5,92);text-transform: capitalize;font-weight: 800;font-family: cursive;text-align: center;
+				font-size: 100%;}
+.website-container a{text-decoration: none;}
+.website-project{height:125px;}
+.graphics-container{width:30%;height: auto;position: relative;float:right;margin-right: 10%;border: 2px solid rgb(78,5,92);border-radius: 5px;
+				margin-bottom: 5%;margin-top: 5%;background: white;}
+.graphics-container a{text-decoration: none;}
+
+.graphics-project{height:125px;}
+
+/************************cpntact******************/
+.contacts{color:rgb(78,5,92);text-transform:capitalize;font-weight: 1000;font-style: initial;font-family: cursive;
+	text-align:center;}
+.mailto{background: rgb(78,5,92);color: white;text-align: center;border-radius: 20px;font-weight: 800;}
+
+
+/*************************slide images************************************/
+.slide-images{width:100%;display:flex;position:relative;display:flex;overflow-x:hidden;scroll-snap-type:x mandatory;scroll-behavior:smooth;
+ -webkit-overflow-scrolling:touch; clear:both;overflow-y:hidden;}
+.slide-container{width:100%;height:800px;z-index: 0;}
+.slides:hover{animation-play-state: paused;cursor:wait;}
+.slides{width:100%;box-sizing: border-box;height:800px;animation :slides 2.5s infinite;animation-iteration-count: 1;animation-direction:alternate;}
+@keyframes slides{
+	0%{opacity:0;}10%{opacity:0.1;}20%{opacity:0.2;}30%{opacity:0.3;}40%{opacity:0.4;}50%{opacity:0.5;}
+	60%{opacity: 0.6;}70%{opacity:0.7;}80%{opacity:0.8;}90%{opacity: 0.9;}100%{opacity: 1.0;}
+
+
+
+
+
+</style>
